@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    
+}
+
+header {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-title {
+    line-height: 70px;
+}
+
+.header-description {
+    font-size: 30px;
+}
+
+.header-content {
+    /* background-color: blue; */
+    font-size: 30px;
+    max-width: 750px;
+    text-align: center;
+    color: white;
+}
+
+.header-button {
+    background-color: #DDAA33;
+    padding: 20px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    cursor: pointer;
+    opacity: 1.0
+}
+
+.header-button:hover {
+    opacity: 0.9;
+}
+
+
+/* PARTE 2 DE LA PAGINA  */
+
+.history {
+    background-color: #F8F5EE;
+    height: 75vh;
+    text-align: center;
+
+}
+
+.history-title {
+    padding: 100px 0;
+    font-size: 40px;
+    color: #6B8E7E;
+}
+
+.history-content {
+    /* max-width: 850px; */
+    /* margin: 0 auto; */
+    /* background-color: yellow; */
+}
+
+.history-description {
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 50px;
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+
+.card-container {
+    /* background-color: aqua; */
+    padding: 40px 0;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.card {
+    background-color: white;
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px 0px;
+    transition: box-shadow 0.5s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.card h3 {
+    color: #A0522D;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card p {
+    color: #666666;
+}
+
+/* PARTE 3 DE LA PAGINA */
+
+.energy-title {
+    padding: 100px 0;
+    font-size: 40px;
+    color: #6B8E7E;
+    text-align: center;
+}
+
+
+
