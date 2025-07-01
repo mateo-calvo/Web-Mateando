@@ -61,7 +61,7 @@ header {
 }
 
 .history-title {
-    padding: 100px 0;
+    padding: 50px 0;
     font-size: 40px;
     color: #6B8E7E;
 }
@@ -118,12 +118,49 @@ header {
 
 /* PARTE 3 DE LA PAGINA */
 
+
 .energy-title {
-    padding: 100px 0;
+    padding: 50px 0;
     font-size: 40px;
     color: #6B8E7E;
     text-align: center;
 }
 
+.energy-container {
 
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center; 
+    /* flex-flow: row wrap;  */
+    flex-direction: row; 
+    flex-wrap: wrap; 
 
+    /* background-color: #bbdefb; */
+    height: 100%;
+    padding: 15px;
+    gap: 30px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+  .energy-container > .energy-card{
+    background: #F8F5EE;
+    /* border: 3px solid #ffcc80; */
+    border-radius: 5px;
+    padding: 30px 30px;
+    width: 300px;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px 0px;
+  }
+
+  .energy-card h3 {
+    color: black;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.energy-card p {
+    color: #666666;
+}
