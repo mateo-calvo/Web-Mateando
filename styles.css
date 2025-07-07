@@ -141,7 +141,7 @@ header {
     color: #666666;
 }
 
-/* PARTE 4 */
+/* FOOTER */
 
 footer {
     background: #333333;
@@ -173,8 +173,9 @@ footer > .footer-container > h3 {
 }
 
 hr {
-    width: 50%;
+    width: 25%;
     margin: 0 auto;
+    margin-top: 15px;
 }
 
 footer > p {
@@ -183,88 +184,90 @@ footer > p {
     color: rgba(255, 255, 255, 0.7);
 }
 
+/* PARTE 4 STEPS */
+    
+.steps {
+    background-color: #F8F5EE;
+    height: 100vh;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* PARTE 3 DE LA PAGINA */
-
-
-.energy-title {
-    height: 50vh    ;
-    padding: 50px 0;
-    font-size: 40px;
+.steps > h2 {
     color: #6B8E7E;
+    text-align: center;
+    font-size: 40px;
+    padding: 75px;
+}
+
+.steps-flex-container {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.steps-flex-container > div {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    background: white;
+    margin: 30px;
+    padding: 15px;
     text-align: center;
 }
 
-.energy-container {
-
-    display: flex;
-    
-    justify-content: center; 
-    align-items: center; 
-    /* flex-flow: row wrap;  */
-    flex-direction: row; 
-    flex-wrap: wrap; 
-
-    /* background-color: #bbdefb; */
-    height: 100%;
-    padding: 15px;
-    gap: 30px;
-    margin: 0 auto;
-    width: 1200px;
+.steps-flex-container > div > h3 {
+    color: #6B8E7E; 
 }
 
-  .energy-container > .energy-card{
-    background: #F8F5EE;
-    /* border: 3px solid #ffcc80; */
-    border-radius: 5px;
-    padding: 30px 30px;
-    width: 300px;
-    height: 220px;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px 0px;
-  }
+/* CTV PARTE 5 */
 
-  .energy-card h3 {
-    color: black;
-    padding-bottom: 10px;
-    font-weight: 700;
+.ctv-section {
+    background-color: #A0522D;
+    height: 65vh;
+    text-align: center;
+    padding: 100px 20px 100px 20px;
+}
+
+.ctv-container {
+    max-width: 1000px;
+    /* background-color: red; */
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.ctv-container > h2 {   
+    margin: 0 0 36px 0;
+    font-size: 44px;
+    color: white;
+}
+
+.ctv-container > p {
+    color: white;
+    font-size: 1.1em;
+    margin: 0px 30px 40px;
+}
+
+.btn-yellow {
+    background-color: #DDAA33;
+    padding: 20px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
     font-size: 20px;
 }
 
-.energy-card p {
-    color: #666666;
-}
-
-/* CUARTA PARTE STEPS */
-
-.steps {
-    background-color: blue;
-    height: 100vh;
+.btn-without-color {
+    background-color: #A0522D;
+    padding: 20px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border: 3px solid #ffffff;
+    font-weight: 600;
+    font-size: 20px;
 }
